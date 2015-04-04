@@ -31,17 +31,22 @@ body {
   background-size: 100%;
   background-attachment: fixed;
 }
-@media (min-width:1000px){
-  html,
-  body {
-    background-image: url("/background.jpg");
-  }
-}
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
+
+@media (min-width:1000px){
+  html,
+  body {
+    background-image: url("/background.jpg");
+  }
+  body {
+    color: black;
+  }
+}
+
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
