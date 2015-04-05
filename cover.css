@@ -42,9 +42,6 @@ body {
   body {
     background-image: url("/background.jpg");
   }
-  body {
-    color: black;
-  }
 }
 
 
@@ -172,5 +169,6 @@ body {
   .mastfoot,
   .cover-container {
     width: 700px;
+    background-color: white;
   }
 }
